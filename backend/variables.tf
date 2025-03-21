@@ -5,13 +5,13 @@ variable "root_dbname" {
 	
 }
 variable "root_key_lock" {
-	description = "My key"
+	description = "My key is this "
 	type = string
 	default = "LockId"
 
 }
 variable "root_bucket_name" {
-	description = "My bucket name"
+	description = "My bucket name in s3"
 	type = string
 	default = "my-bucket-sharat-random-test23"
 }
